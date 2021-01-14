@@ -4,8 +4,8 @@
  alert(responseName + nameq);
  console.log('The users name is ' + nameq); 
  
-document.write("Welcome " + nameq); 
-
+ document.write("Welcome " + nameq); 
+/*
 var male = prompt('Am I a Male? Please answer YES or NO ');
 var male = male.toUpperCase();
 console.log('Am I a Male ' + male); {
@@ -52,4 +52,4 @@ console.log('Was I in the Army ' + army); {
 }
 }
 
- 
+  */
