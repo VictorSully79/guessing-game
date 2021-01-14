@@ -1,4 +1,3 @@
- 
  'use strict' 
  var nameq = prompt('To whome am I speaking? ');
  var responseName = 'Nice to meet you ' ;
@@ -52,3 +51,5 @@ console.log('Was I in the Army ' + army); {
     alert('Wrong! ' + nameq);
 }
 }
+
+ 

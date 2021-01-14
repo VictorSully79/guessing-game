@@ -1,9 +1,29 @@
 body {
-  color: red;
+  color: vampire black; 
+  background: linear-gradient(110deg, #4e4b2c 50%, #78866b 51%); 
 }
 
 li {
   border-width: thin;
   border-color: blue;
   border-style: dashed;
+}
+header {
+  border: solid black 2px;
+  border-bottom: solid black 10px;
+  height: 100px;
+  text-align: center;
+  color: #00FF41;
+  border-bottom: black, 4px, solid
+}
+
+div {
+  height: 250px;
+  border-bottom: solid black 5px;
+}
+
+footer {
+  display:inline-block
+  height: 100px
+  border: solid black 2px
 }
