@@ -1,18 +1,28 @@
- 'use strict' 
- var nameq = prompt('To whome am I speaking? ');
- var responseName = 'Nice to meet you ' ;
- alert(responseName + nameq);
- console.log('The users name is ' + nameq); 
- 
- document.write("Welcome " + nameq); 
+'use strict'
+
+//   wrapping the script in a funtion and then calling the function
+
+function whatsYourName() {
+
+  var nameq = prompt('To whome am I speaking? ');
+  var responseName = 'Nice to meet you ';
+  alert(responseName + nameq);
+  console.log('The users name is ' + nameq);
+
+  document.write("Welcome " + nameq);
+}
+
+whatsYourName();
+
+
 /*
 var male = prompt('Am I a Male? Please answer YES or NO ');
 var male = male.toUpperCase();
 console.log('Am I a Male ' + male); {
   if (male == 'YES' || male == 'Y') {
     alert('Correct, your smarter than I thought ' + nameq );
-} else if (male != 'YES' || male != 'Y') 
-    alert('Wrong! I know your smarter than that, ' + nameq); 
+} else if (male != 'YES' || male != 'Y')
+    alert('Wrong! I know your smarter than that, ' + nameq);
 }
 
 var age = prompt('Am I over the age of 40? Please answer YES or NO');
