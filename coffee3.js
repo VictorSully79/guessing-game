@@ -1,5 +1,5 @@
 
-// wrapping the script into a function and then call it
+
 
 function questionsAboutMe() {
 
@@ -13,7 +13,7 @@ function questionsAboutMe() {
     var answer = prompt(arrayOfQuestions[i]);
     var answer = answer.toUpperCase();
     arrayOfAnswers.push(answer);
-    console.log(answer);
+  
 
     if (answer == 'YES' || answer == 'Y') {
       alert('Youre Right!');
@@ -22,7 +22,10 @@ function questionsAboutMe() {
     }
 
     arrayOfAnswers[i] = answer;
-    console.log(arrayOfAnswers);
+    {
+    
+      
+    }
 
   }
 

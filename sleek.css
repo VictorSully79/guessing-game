@@ -3,11 +3,6 @@ body {
   background: linear-gradient(110deg, #4e4b2c 50%, #78866b 51%); 
 }
 
-li {
-  border-width: thin;
-  border-color: blue;
-  border-style: dashed;
-}
 header {
   border: solid black 2px;
   border-bottom: solid black 10px;
@@ -22,8 +17,26 @@ div {
   border-bottom: solid black 5px;
 }
 
-footer {
-  display: inline-block
-  height: 100px
-  border: solid black 2px
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: normal; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
 }
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+  

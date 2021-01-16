@@ -1,6 +1,6 @@
 'use strict'
 
-//   wrapping the script in a funtion and then calling the function
+
 
 function guessNumbers() {
 
@@ -20,7 +20,7 @@ function guessNumbers() {
     }
     else if (userAnswer === correctAnswer) {
       alert("Wow, you are good at this!");
-
+break
 
     } else if (userAnswer < correctAnswer) {
       alert('Sorry, too low.');
